@@ -1,4 +1,4 @@
-# TREMORS — Implementation Plan
+# 2DWAVES
 ## 2D Seismic Wave Propagation + Granular Sonification Instrument
 ### SOS/SeisClaw Suite | sos.allshookup.org | seisclaw.com
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-TREMORS is a new standalone browser instrument in the SOS (Sounds of Seismic) suite at [sos.allshookup.org](http://sos.allshookup.org), alongside `ONE.html`, `flow.html`, `seis.html`, and `ShadowZone.html`. It is a 2D acoustic finite difference wave propagation simulator whose synthetic seismograms feed a GranularEngine for real-time sonification.
+2DWAVES is a  standalone browser instrument in the SOS (Sounds of Seismic) suite at [sos.allshookup.org](http://sos.allshookup.org), alongside `ONE.html`, `flow.html`, `seis.html`, and `ShadowZone.html`. It is a 2D acoustic finite difference wave propagation simulator whose synthetic seismograms feed a GranularEngine for real-time sonification.
 
 The physics engine is derived from the same SW4/CIG lineage ([github.com/geodynamics/sw4](https://github.com/geodynamics/sw4)) that underlies USGS seismic hazard calculations, reduced to a 2D scalar acoustic stencil that runs in vanilla JS in a browser tab. The reference implementation that confirmed browser viability is [jtiscione/webassembly-wave](https://github.com/jtiscione/webassembly-wave) ([live demo](https://jtiscione.github.io/webassembly-wave/index.html)).
 
@@ -897,7 +897,7 @@ allshookup.org. Deployment path: /public_html/tremors.html
 
 ---
 
-*TREMORS — MIT - allshookup.org 2026*
+*2DWAVES — MIT - allshookup.org 2026*
 *Physics lineage: SW4 (https://github.com/geodynamics/sw4) / CIG (https://geodynamics.org)*
 *Reference browser implementation: https://github.com/jtiscione/webassembly-wave*
 *EarthScope data: https://service.earthscope.org*
