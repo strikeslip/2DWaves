@@ -1,5 +1,5 @@
 
-## Best Claude practices for implementing TREMORS
+## Best Claude practices for implementing 2DWAVES
 
 ### 1. One phase per conversation — no exceptions
 
@@ -123,7 +123,7 @@ This is a gotcha that catches experienced developers. Opus knows about it but wi
 
 ### 11. Test on file:// protocol at every phase
 
-All SOS instruments at allshookup.org are served as static files. No server, no localhost. Open each `tremors_pN.html` directly from the filesystem — `file:///path/to/tremors_p1.html` — not via a dev server. Some browser APIs behave differently under `file://` and catching this early is far cheaper than discovering it at deployment.
+All SOS instruments at allshookup.org are served as static files. No server, no localhost. Open each `2DWAVES_pN.html` directly from the filesystem — `file:///path/to/tremors_p1.html` — not via a dev server. Some browser APIs behave differently under `file://` and catching this early is far cheaper than discovering it at deployment.
 
 ---
 
@@ -162,4 +162,4 @@ Throughout implementation, the geological contrast between Station 1 (basin — 
 | Audio only on user gesture | Chrome/Safari autoplay policy |
 | Test file:// at every phase | SOS deployment is static files |
 | Phase 7 = polish only | Prevent late-stage refactoring |
-| Preserve the geological contrast | That is what TREMORS is for |
+| Preserve the geological contrast | That is what 2DWAVES is for |
